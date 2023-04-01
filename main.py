@@ -26,7 +26,7 @@ print(" ........... App Started ........... ")
 
 @app.get("/")
 def index():
-	return "This is the API for Breast Cancer"
+	return {"message": "API is for breast cancer"}
       
 @app.post("/predict")
 def endpoint_face_analytics(image: UploadFile):
