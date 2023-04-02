@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web gunicorn breastcancer.wsgi:application --log-file -
